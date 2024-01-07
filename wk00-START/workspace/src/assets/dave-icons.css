@@ -1,0 +1,805 @@
+/*  DAVE Iconography Library V1 - CSS File
+Date: 20/01/2021 */
+
+@font-face {
+    font-family: 'Dave Icons V1.1';
+    src: url('https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/fonts/dave-icons-v1-1/dave-icon-font-v1-1.woff?1i91fi');
+    src: url('https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/fonts/dave-icons-v1-1/dave-icon-font-v1-1.eot?1i91fi#iefix')
+        format('embedded-opentype'),
+      url('https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/fonts/dave-icons-v1-1/dave-icon-font-v1-1.woff2?1i91fi')
+        format('woff2'),
+      url('https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/fonts/dave-icons-v1-1/dave-icon-font-v1-1.woff?1i91fi')
+        format('woff'),
+      url('https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/fonts/dave-icons-v1-1/dave-icon-font-v1-1.ttf?1i91fi')
+        format('truetype'),
+      url('https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/fonts/dave-icons-v1-1/dave-icon-font-v1-1.svg?1i91fi#dave-icon-font')
+        format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^=icon], [class*=" icon"] {
+    font-family: "Dave Icons V1.1"!important;
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  [class^='icon'] :is(.path1, .path2, .path3),
+  [class*=' icon'] :is(.path1, .path2, .path3) {
+    font-style: inherit;
+  } 
+  .iconAct-Account_Details_Filled:before {
+    content: '\e900';
+  }
+  .iconAct-Account_Details_Outlined:before {
+    content: '\e901';
+  }
+  .iconAct-Account_LoggedIn_Filled:before {
+    content: '\e902';
+  }
+  .iconAct-Account_LoggedIn_Outlined:before {
+    content: '\e903';
+  }
+  .iconAct-Account_Login_Filled:before {
+    content: '\e904';
+  }
+  .iconAct-Account_Login_Outlined:before {
+    content: '\e905';
+  }
+  .iconAct-Account_Settings_Filled:before {
+    content: '\e906';
+  }
+  .iconAct-Account_Settings_Outlined:before {
+    content: '\e907';
+  }
+  .iconAct-Add_Comment_Filled:before {
+    content: '\e908';
+  }
+  .iconAct-Add_Comment_Outlined:before {
+    content: '\e909';
+  }
+  
+  /* Use for catalogue page, will remove later */
+  .iconAct-Add_Plus:before,
+  .iconww-Plus:before {
+    content: '\e90a';
+  }
+  .iconAct-Afternoon:before {
+    content: '\e90b';
+  }
+  .iconAct-Arrow_Down:before {
+    content: '\e90c';
+  }
+  .iconAct-Arrow_Left:before {
+    content: '\e90d';
+  }
+  .iconAct-Arrow_Right:before {
+    content: '\e90e';
+  }
+  .iconAct-Arrow_Up:before {
+    content: '\e90f';
+  }
+  .iconAct-Arrow_UpAndDown:before {
+    content: '\21c5';
+  }
+  
+  /* Use for catalogue page, will remove later */
+  .iconAct-Bullet_List:before,
+  .iconww-List::before {
+    content: '\e910';
+  }
+  
+  .iconAct-Calendar:before {
+    content: '\e911';
+  }
+  .iconAct-Checklist_Filled:before {
+    content: '\e912';
+  }
+  .iconAct-Checklist_Outlined:before {
+    content: '\e913';
+  }
+  .iconAct-Chevron_Down:before {
+    content: '\e914';
+  }
+  .iconAct-Chevron_Left:before {
+    content: '\e915';
+  }
+  
+  /* Backward compatible for dynamic content */
+  .icon-chevron_next:before {
+    content: '\e916';
+  }
+  .iconww-ArrowRight:before {
+    content: '\e916';
+  }
+  .iconAct-Chevron_Right:before {
+    content: '\e916';
+  }
+  .iconAct-Chevron_Up:before {
+    content: '\e917';
+  }
+  .iconAct-Clock_Time_Filled:before {
+    content: '\e918';
+  }
+  .iconAct-Clock_Time_Outlined:before {
+    content: '\e919';
+  }
+  .iconAct-Close_Cancel:before {
+    content: '\e91a';
+  }
+  .iconAct-Comment_Filled:before {
+    content: '\e91b';
+  }
+  .iconAct-Comment_Outlined:before {
+    content: '\e91c';
+  }
+  .iconAct-Corporate_Filled:before {
+    content: '\e91d';
+  }
+  .iconAct-Corporate_Outlined:before {
+    content: '\e91e';
+  }
+  .iconAct-Create_Account_Filled:before {
+    content: '\e91f';
+  }
+  .iconAct-Create_Account_Outlined:before {
+    content: '\e920';
+  }
+  .iconAct-Delete_Filled:before {
+    content: '\e921';
+  }
+  .iconAct-Delete_Outlined:before {
+    content: '\e922';
+  }
+  .iconAct-Desktop_Filled:before {
+    content: '\e923';
+  }
+  .iconAct-Desktop_Outlined:before {
+    content: '\e924';
+  }
+  .iconAct-Desktop_Wapple:before {
+    content: '\e925';
+  }
+  .iconAct-Document_Download_Filled:before {
+    content: '\e926';
+  }
+  .iconAct-Document_Download_Outlined:before {
+    content: '\e927';
+  }
+  .iconAct-Document_Filled:before {
+    content: '\e928';
+  }
+  .iconAct-Document_Outlined:before {
+    content: '\e929';
+  }
+  .iconAct-Double_Chevron_Down:before {
+    content: '\e92a';
+  }
+  .iconAct-Double_Chevron_Left:before {
+    content: '\e92b';
+  }
+  .iconAct-Double_Chevron_Right:before {
+    content: '\e92c';
+  }
+  .iconAct-Double_Chevron_Up:before {
+    content: '\e92d';
+  }
+  .iconAct-Download:before {
+    content: '\e92e';
+  }
+  .iconAct-Edit:before {
+    content: '\e92f';
+  }
+  .iconAct-Email_Filled:before {
+    content: '\e930';
+  }
+  .iconAct-Email_Outlined:before {
+    content: '\e931';
+  }
+  .iconAct-Evening:before {
+    content: '\e932';
+  }
+  .iconAct-External_Link:before {
+    content: '\e933';
+  }
+  .iconAct-Favourite_Filled:before {
+    content: '\e934';
+  }
+  .iconAct-Favourite_Outlined:before {
+    content: '\e935';
+  }
+  .iconAct-Filters:before {
+    content: '\e936';
+  }
+  .iconAct-GPS_Location_Disabled:before {
+    content: '\e937';
+  }
+  .iconAct-GPS_Location_Enabled:before {
+    content: '\e938';
+  }
+  .iconAct-GPS_Location:before {
+    content: '\e939';
+  }
+  .iconAct-Grid_View_Filled:before {
+    content: '\e93a';
+  }
+  .iconAct-Grid_View_Outlined:before {
+    content: '\e93b';
+  }
+  .iconAct-History:before {
+    content: '\e93c';
+  }
+  .iconAct-Image:before {
+    content: '\e93d';
+  }
+  .iconAct-List_View_Filled:before {
+    content: '\e93e';
+  }
+  .iconAct-List_View_Outlined:before {
+    content: '\e93f';
+  }
+  .iconAct-Live_Chat_Filled:before {
+    content: '\e940';
+  }
+  .iconAct-Live_Chat_Outlined:before {
+    content: '\e941';
+  }
+  .iconAct-Location_Filled:before {
+    content: '\e942' !important;
+  }
+  .iconAct-Location_Map:before {
+    content: '\e943';
+  }
+  .iconAct-Location_Outlined:before {
+    content: '\e944';
+  }
+  .iconAct-Lock_Closed_Filled:before {
+    content: '\e945';
+  }
+  .iconAct-Lock_Closed_Outlined:before {
+    content: '\e946';
+  }
+  .iconAct-Lock_Open_Filled:before {
+    content: '\e947';
+  }
+  .iconAct-Lock_Open_Outlined:before {
+    content: '\e948';
+  }
+  .iconAct-Logout:before {
+    content: '\e949';
+  }
+  .iconAct-Menu:before {
+    content: '\e94a';
+  }
+  .iconAct-Mice_Mouse_Filled:before {
+    content: '\e94b';
+  }
+  .iconAct-Mice_Mouse_Outlined:before {
+    content: '\e94c';
+  }
+  
+  /* Use for catalogue page, will remove later */
+  .iconAct-Minus_Remove:before,
+  .iconww-Minus:before {
+    content: '\e94d';
+  }
+  .iconAct-Mobile_Phone_Filled:before {
+    content: '\e94e';
+  }
+  .iconAct-Mobile_Phone_Outlined:before {
+    content: '\e94f';
+  }
+  .iconAct-Mobile_Phone_Wapple:before {
+    content: '\e950';
+  }
+  .iconAct-More_Horizontal:before {
+    content: '\e951';
+  }
+  .iconAct-More_Vertical:before {
+    content: '\e952';
+  }
+  .iconAct-Morning:before {
+    content: '\e953';
+  }
+  .iconAct-New_Window:before {
+    content: '\e954';
+  }
+  .iconAct-Note_Filled:before {
+    content: '\e955';
+  }
+  .iconAct-Note_Outlined:before {
+    content: '\e956';
+  }
+  .iconAct-Overnight:before {
+    content: '\e957';
+  }
+  .iconAct-Pause:before {
+    content: '\e958';
+  }
+  .iconAct-Pay_Card:before {
+    content: '\e959';
+  }
+  .iconAct-Pay_CreditCard:before {
+    content: '\e95a';
+  }
+  .iconAct-Pay_GiftCard:before {
+    content: '\e95b';
+  }
+  .iconAct-Pay_OnAccount:before {
+    content: '\e95c';
+  }
+  .iconAct-Play:before {
+    content: '\e95d';
+  }
+  .iconAct-Print_Filled:before {
+    content: '\e95e';
+  }
+  .iconAct-Print_Outlined:before {
+    content: '\e95f';
+  }
+  .iconAct-Save_Star_Filled:before {
+    content: '\e960';
+  }
+  .iconAct-Save_Star_Outlined:before {
+    content: '\e961';
+  }
+  .iconAct-Save_To_List:before {
+    content: '\e962';
+  }
+  .iconAct-Scan_Barcode:before {
+    content: '\e963';
+  }
+  .iconAct-Scan_Rewards_Card:before {
+    content: '\e964';
+  }
+  .iconAct-Search:before {
+    content: '\e965';
+  }
+  .iconAct-Security_Filled:before {
+    content: '\e966';
+  }
+  .iconAct-Security_Outlined:before {
+    content: '\e967';
+  }
+  .iconAct-Settings_Filled:before {
+    content: '\e968';
+  }
+  .iconAct-Settings_Outlined:before {
+    content: '\e969';
+  }
+  .iconAct-Stop:before {
+    content: '\e96a';
+  }
+  .iconAct-Substitution:before {
+    content: '\e96b';
+  }
+  .iconAct-Timer:before {
+    content: '\e96c';
+  }
+  .iconAct-Tooltip_Help:before {
+    content: '\e96d';
+  }
+  .iconAct-Upload:before {
+    content: '\e96e';
+  }
+  .iconAct-Visibility_Off:before {
+    content: '\e96f';
+  }
+  .iconAct-Visibility:before {
+    content: '\e970';
+  }
+  .iconAct-Phone_Filled:before {
+    content: '\e972';
+  }
+  .iconAct-Phone_Outlined:before {
+    content: '\e973';
+  }
+  .iconAct-Reply:before {
+    content: '\e974';
+  }
+  .iconAct-Home:before {
+    content: '\e975';
+  }
+  .iconAct-Like_Filled:before {
+    content: '\e976';
+  }
+  .iconAct-Like:before {
+    content: '\e977';
+  }
+  .iconAct-Dislike_Filled:before {
+    content: '\e978';
+  }
+  .iconAct-Dislike_Outlined:before {
+    content: '\e979';
+  }
+  .iconShop-Add_To_Cart:before {
+    content: '\e97a';
+  }
+  .iconShop-Buy_More_Save_More-Circle:before {
+    content: '\e97b';
+  }
+  .iconShop-Buy_More_Save_More:before {
+    content: '\e97c';
+  }
+  .iconShop-Cart-Filled:before {
+    content: '\e97d';
+  }
+  .iconShop-Cart-Outlined:before {
+    content: '\e97e';
+  }
+  .iconShop-Delivery_Fee:before {
+    content: '\e97f';
+  }
+  .iconShop-Delivery_Generic:before {
+    content: '\e980';
+  }
+  .iconShop-Delivery_Time:before {
+    content: '\e981';
+  }
+  .iconShop-Delivery_Truck_Wapple:before {
+    content: '\e982';
+  }
+  .iconShop-Dollar_Saved-Circle:before {
+    content: '\e983';
+  }
+  .iconShop-Dollar_Saved:before {
+    content: '\e984';
+  }
+  .iconShop-Express_Delivery:before {
+    content: '\e985';
+  }
+  .iconShop-Groceries_Basket:before {
+    content: '\e986';
+  }
+  .iconShop-Order_Invoice_Filled:before {
+    content: '\e987';
+  }
+  .iconShop-Order_Invoice_Outlined:before {
+    content: '\e988';
+  }
+  .iconShop-Order_Processing_Filled:before {
+    content: '\e989';
+  }
+  .iconShop-Order_Processing_Outlined:before {
+    content: '\e98a';
+  }
+  .iconShop-Out_Of_Stock:before {
+    content: '\e98b';
+  }
+  .iconShop-Pickup_Filled:before {
+    content: '\e98c';
+  }
+  .iconShop-Pickup_Outlined:before {
+    content: '\e98d';
+  }
+  .iconShop-Pickup_Time:before {
+    content: '\e98e';
+  }
+  .iconShop-Products-Filled:before {
+    content: '\e98f';
+  }
+  .iconShop-Products-Outlined:before {
+    content: '\e9db';
+  }
+  .iconShop-Promo_Code-Filled:before {
+    content: '\e9dc';
+  }
+  .iconShop-Promo_Code-Outlined:before {
+    content: '\e9dd';
+  }
+  .iconShop-Reusable_Bags:before {
+    content: '\e9de';
+  }
+  .iconShop-Review_Order:before {
+    content: '\e9df';
+  }
+  .iconShop-Specials:before {
+    content: '\e9e0';
+  }
+  .iconShop-Store_Location:before {
+    content: '\e9e1';
+  }
+  .iconShop-Trolley_Saver-Circle:before {
+    content: '\e9e2';
+  }
+  .iconShop-Trolley_Saver:before {
+    content: '\e9e3';
+  }
+  .iconNoti-Confirmation_Circle_Filled .path1:before {
+    content: '\e990';
+    color: rgb(37, 134, 30);
+  }
+  .iconNoti-Confirmation_Circle_Filled .path2:before {
+    content: '\e991';
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .iconNoti-Confirmation_Circle_Outlined:before {
+    content: '\e992';
+  }
+  .iconNoti-Confirmation_Tick_Thick:before {
+    content: '\e993';
+  }
+  .iconNoti-Confirmation_Tick_Thin:before {
+    content: '\e994';
+  }
+  .iconNoti-Error_Filled .path1:before {
+    content: '\e995';
+    color: rgb(189, 22, 28);
+  }
+  .iconNoti-Error_Filled .path2:before {
+    content: '\e996';
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .iconNoti-Error_Filled .path3:before {
+    content: '\e997';
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .iconNoti-Error_Outlined:before {
+    content: '\e998';
+  }
+  .iconNoti-Info_Circle_Filled .path1:before {
+    content: '\e999';
+    color: rgb(0, 116, 188);
+  }
+  .iconNoti-Info_Circle_Filled .path2:before {
+    content: '\e99a';
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .iconNoti-Info_Circle_Filled .path3:before {
+    content: '\e99b';
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .iconNoti-Info_Circle_Outlined:before {
+    content: '\e99c';
+  }
+  .iconNoti-Warning_Filled .path1:before {
+    content: '\e99d';
+    color: rgb(229, 195, 0);
+  }
+  .iconNoti-Warning_Filled .path2:before {
+    content: '\e99e';
+    margin-left: -1em;
+    color: rgb(58, 71, 78);
+  }
+  .iconNoti-Warning_Filled .path3:before {
+    content: '\e99f';
+    margin-left: -1em;
+    color: rgb(58, 71, 78);
+  }
+  .iconNoti-Warning_Outlined:before {
+    content: '\e9a0';
+  }
+  .iconWW-Gift_Cards:before {
+    content: '\e9a1';
+  }
+  .iconWW-Insurance:before {
+    content: '\e9a2';
+  }
+  .iconWW-Money:before {
+    content: '\e9a3';
+  }
+  .iconWW-Petrol:before {
+    content: '\e9a4';
+  }
+  .iconWW-Rewards:before {
+    content: '\e9a5';
+  }
+  .iconWW-Supermarkets:before {
+    content: '\e9a6';
+  }
+  .iconWW-Telco:before {
+    content: '\e9a7';
+  }
+  .iconSocial-Twitter:before {
+    content: '\ea14';
+  }
+  .iconSocial-Facebook:before {
+    content: '\ea15';
+  }
+  .iconSocial-Instagram:before {
+    content: '\ea16';
+  }
+  .iconSocial-Pinterest:before {
+    content: '\ea17';
+  }
+  .iconSocial-Tumblr:before {
+    content: '\ea18';
+  }
+  .iconSocial-Youtube:before {
+    content: '\e971';
+  }
+  .iconFood-Baby:before {
+    content: '\e9a8';
+  }
+  .iconFood-Bakery:before {
+    content: '\e9a9';
+  }
+  .iconFood-Baking:before {
+    content: '\e9aa';
+  }
+  .iconFood-Basket:before {
+    content: '\e9ab';
+  }
+  .iconFood-Beauty:before {
+    content: '\e9ac';
+  }
+  .iconFood-Beer_Spirits_Wine:before {
+    content: '\e9ad';
+  }
+  .iconFood-Biscuits:before {
+    content: '\e9ae';
+  }
+  .iconFood-Cleaning:before {
+    content: '\e9af';
+  }
+  .iconFood-Confectionary:before {
+    content: '\e9b0';
+  }
+  .iconFood-Dairy:before {
+    content: '\e9b1';
+  }
+  .iconFood-Deli:before {
+    content: '\e9b2';
+  }
+  .iconFood-Desserts:before {
+    content: '\e9b3';
+  }
+  .iconFood-Eggs:before {
+    content: '\e9b4';
+  }
+  .iconFood-Freezer:before {
+    content: '\e9b5';
+  }
+  .iconFood-Fridge:before {
+    content: '\e9b6';
+  }
+  .iconFood-Frozen_Meals:before {
+    content: '\e9b7';
+  }
+  .iconFood-Fruit_Veg:before {
+    content: '\e9b8';
+  }
+  .iconFood-Household:before {
+    content: '\e9b9';
+  }
+  .iconFood-Ice_Cream:before {
+    content: '\e9ba';
+  }
+  .iconFood-International_Food:before {
+    content: '\e9bb';
+  }
+  .iconFood-International_Sauces:before {
+    content: '\e9bc';
+  }
+  .iconFood-Jams_Spread:before {
+    content: '\e9bd';
+  }
+  .iconFood-Meat:before {
+    content: '\e9be';
+  }
+  .iconFood-Pantry:before {
+    content: '\e9bf';
+  }
+  .iconFood-Pet:before {
+    content: '\e9c0';
+  }
+  .iconFood-Tea_Coffee_Soft_Drinks:before {
+    content: '\e9c1';
+  }
+  .iconFood-Toiletries_Health_Wellbeing:before {
+    content: '\e9c2';
+  }
+  .iconRwds-1_Dollar:before {
+    content: '\e9c3';
+  }
+  .iconRwds-10_Dollars:before {
+    content: '\e9c4';
+  }
+  .iconRwds-Auto_Savings:before {
+    content: '\e9c5';
+  }
+  .iconRwds-Bonus_Offers:before {
+    content: '\e9c6';
+  }
+  .iconRwds-Check_Balance:before {
+    content: '\e9c7';
+  }
+  .iconRwds-Convert_Qantas_Points:before {
+    content: '\e9c8';
+  }
+  .iconRwds-Countdown:before {
+    content: '\e9c9';
+  }
+  .iconRwds-Discount_Shopping:before {
+    content: '\e9ca';
+  }
+  .iconRwds-Earn_Points:before {
+    content: '\e9cb';
+  }
+  .iconRwds-Email_Offers:before {
+    content: '\e9cc';
+  }
+  .iconRwds-Fuel:before {
+    content: '\e9cd';
+  }
+  .iconRwds-Login:before {
+    content: '\e9ce';
+  }
+  .iconRwds-Offers:before {
+    content: '\e9cf';
+  }
+  .iconRwds-Orange_Tickets:before {
+    content: '\e9d0';
+  }
+  .iconRwds-Reach_10_Dollars:before {
+    content: '\e9d1';
+  }
+  .iconRwds-Save_For_Xmas:before {
+    content: '\e9d2';
+  }
+  .iconRwds-Save:before {
+    content: '\e9d3';
+  }
+  .iconRwds-Scan:before {
+    content: '\e9d4';
+  }
+  .iconRwds-Shop_Earn:before {
+    content: '\e9d5';
+  }
+  .iconRwds-Shop_Into_Dollar:before {
+    content: '\e9d6';
+  }
+  .iconRwds-Shop_Into_Points:before {
+    content: '\e9d7';
+  }
+  .iconRwds-Shop_Save:before {
+    content: '\e9d8';
+  }
+  .iconRwds-Win:before {
+    content: '\e9d9';
+  }
+  .iconRwds-WW_Dollars_Balance:before {
+    content: '\e9da';
+  }
+  .iconHSR-1:before {
+    content: '\ea4c';
+  }
+  .iconHSR-2:before {
+    content: '\ea4d';
+  }
+  .iconHSR-3:before {
+    content: '\ea4e';
+  }
+  .iconHSR-4:before {
+    content: '\ea4f';
+  }
+  .iconHSR-5:before {
+    content: '\ea50';
+  }
+  .iconHSR-05:before {
+    content: '\ea51';
+  }
+  .iconHSR-15:before {
+    content: '\ea52';
+  }
+  .iconHSR-25:before {
+    content: '\ea53';
+  }
+  .iconHSR-35:before {
+    content: '\ea54';
+  }
+  .iconHSR-45:before {
+    content: '\ea55';
+  }  

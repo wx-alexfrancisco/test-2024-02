@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <meta name="generator" content={Astro.generator} />
+  <title>WX-Bshop | {title}</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn0.woolworths.media/wowssr/syd2/a10/browser/styles.74d1f0e39821c44b1988.css" />
+
+  <!-- Dummy Skus -->
+  <link rel="stylesheet" href="src/assets/dummy-skus.css">
+
+  <!-- Web Frame WoW css -->
+  <link rel="stylesheet" href="src/assets/basic-styles.css">
+  <link rel="stylesheet" href="src/assets/wow-fonts.css">
+  <link rel="stylesheet" href="src/assets/dave-icons.css">
+
+  <!-- Swiper CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- To Run this page -->
+  <link rel="stylesheet" href="stylesheet.css" />
+
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="wx_fakeMenuTop">
+        <div class="hideOnScroll-1"></div>
+        <div class="logoOnTop">
+          <div class="wx_logo_left">
+            <img src="https://cdn0.woolworths.media/content/content/wk00-woolwoeths-bshop-logo.png" alt="" />
+          </div>
+        </div>
+        <div class="hideOnScroll-2"></div>
+        <div class="hideOnScroll-3"></div>
+      </div>
+
+      <div class="wxFullFixed">
+        <div class="stickyOnTop">
+          <div class="wx_logo_left">
+            <img src="https://cdn0.woolworths.media/content/content/wk00-woolwoeths-bshop-logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="http://127.0.0.1:5500/main.html" rel="noopener noreferrer">index</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-colgate-ow.html" rel="noopener noreferrer">colgate-ow</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-colgate-total.html" rel="noopener noreferrer">colgate-total</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-jack-n-jill.html" rel="noopener noreferrer">jack-n-jill</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-listerine.html" rel="noopener noreferrer">listerine</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-oral-b.html" rel="noopener noreferrer">oral-b</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-piksters.html" rel="noopener noreferrer">piksters</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-polident.html" rel="noopener noreferrer">polident</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-sensodyne.html" rel="noopener noreferrer">sensodyne</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-waken.html" rel="noopener noreferrer">waken</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/lp-white-glo.html" rel="noopener noreferrer">white-glo</a>
+        </li>
+        <!-- {astro.pages.map(page => {
+            // Only include pages with a "slug" property
+            if (!page.slug) {
+              return null;
+            }
+            return (
+              <li>
+                <a href={page.url}>{page.title}</a>
+              </li>
+            );
+          })} -->
+      </ul>
+    </nav>
+
+
+
+
+
+
+
+
+
+    <!-- THIS IS THE START OF THE MAIN CONTENT -->
+
+    <!-- <div class="branded-shop-page" data-layout-id={layoutID} style="background-color: var(--colour-background);" > -->
+    <div class="branded-shop-page dynamic-content-canvas" data-layout-id="{layoutID}">
+
+    <!--  --------------- htmlFrame ---------------  -->
+
+
+
+
+
+
+
+
+      <script>
+        // If you want, add a title to shared BShops to easily manage them.
+        document.title = "Birds Eye | Woolworths";
+      </script>
+
+      <!-- Breadcrumbs -->
+      <section class="bs-frame">
+        <style>
+          .breadcrumb-nav {
+            position: relative;
+            z-index: 10;
+            display: block;
+            background-color: var(--color-brand-primary-white);
+            padding: 8px 16px;
+            color: #3a474e;
+            white-space: nowrap;
+            line-height: normal;
+            overflow-x: auto;
+            scrollbar-width: none;
+            border-bottom: 1px solid #eee;
+          }
+      
+          .breadcrumb-nav li {
+            display: inline;
+          }
+      
+          .breadcrumb-links {
+            font-family: Fresh Sans, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+          }
+      
+          .breadcrumb-icon {
+            width: 4px;
+            height: 8px;
+            font-size: 8px;
+            margin: 8px;
+            position: relative;
+            top: -2px;
+          }
+      
+          .backToHome ol {
+            margin-bottom: 0;
+          }
+        </style>
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav backToHome">
+          <ol>
+            <li>
+              <i class="iconAct-Chevron_Left breadcrumb-icon"></i>
+              <span class="breadcrumb-links">Back to the </span>
+              <a class="breadcrumb-links" href="/shop/brands">Featured Brands</a>
+            </li>
+          </ol>
+        </nav>
+      </section>
+
+      <!-- Hero Banner -->
+      <section class="bs-frame ">
+        <picture class="bs-asset banner-header">
+          <source class="bs-asset" media="(max-width: 767px)" type="image/jpeg" srcset="https://cdn0.woolworths.media/content/content/fy24-wk06-birds-eye-01banner-sf.jpg">
+          <source class="bs-asset" media="(min-width: 768px)" type="image/jpeg" srcset="https://cdn0.woolworths.media/content/content/fy24-wk06-birds-eye-01banner-lf.jpg">
+      
+          <img class="bs-asset" src="https://cdn0.woolworths.media/content/content/fy24-wk06-birds-eye-01banner-lf.jpg" alt="">
+        </picture>
+      </section>
+
+
+      <div class="bs-spacer__vertical"></div>
+      <div class="bs-spacer__vertical"></div>
+
+
+      <!-- Section - Content  -->
+      <section class="bs-frame">
+        <div class="bs-container">
+          <div class="bs-wrap">
+            <h1>Why should I clean between my teeth?</h1>
+
+            <p>It’s important to clean the gap between your teeth, which makes up 40% of the tooth surface but is responsible for about 80% of major dental problems. Proper cleaning reduces the risk of decay, gum disease, and serious gum and bone issues.</p>
+
+            <p>Piksters<sup>&reg;</sup> clean the areas between your teeth where toothbrushes cannot reach</p>
+
+            <h2>How often should I use Piksters?</h2>
+
+            <p>Breathe Right Use Piksters<sup>&reg;</sup> at least once a day when cleaning your teeth. It can also be used with fluoride toothpaste for better decay prevention in the gaps.</p>
+
+            <p>Piksters<sup>&reg;</sup> can be carried in your pocket and used in many situations, particularly after meals when you can’t access a bathroom.</p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Section - Content  -->
+      <section class="bs-frame">
+        <div class="bs-container">
+          <div class="bs-wrap">
+            
+            <div class="bs-infographic-container">
+              <div class="bs-infographic-container-in-line">
+                <div class="item">
+                  <img src="https://cdn0.woolworths.media/content/content/oral-care-piksters-infoimg-01.png" alt="" class="bs-asset">
+                </div>
+              </div>
+            </div>
+
+            <style>
+              .bs-infographic-container {
+                display: flex;
+                flex-direction: column;
+              }
+
+              .bs-infographic-container-in-line {
+                display: flex;
+              }
+            </style>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section - Content  -->
+      <section class="bs-frame ">
+        <div class="bs-container">
+          <div class="bs-wrap">
+            <picture>
+              <source media="(max-width: 767px)" type="image/jpeg" srcset="https://cdn0.woolworths.media/content/content/fy24-wk06-birds-eye-01banner-sf.jpg">
+              <source media="(min-width: 768px)" type="image/jpeg" srcset="https://cdn0.woolworths.media/content/content/fy24-wk06-birds-eye-01banner-lf.jpg">
+        
+              <img src="https://cdn0.woolworths.media/content/content/fy24-wk06-birds-eye-01banner-lf.jpg" alt="">
+            </picture>
+        </div>
+        </div>
+      </section>
+      
+      <div class="bs-spacer__vertical"></div>
+      <div class="bs-spacer__vertical"></div>
+
+
+      <!-- Section - Content / List -->
+      <!-- <section class="bs-frame">
+        <div class="bs-container">
+          <div class="bs-wrap">
+            <h2>How do I use Piksters correctly?</h2>
+
+            <ol>
+              <li>Choose the correct size for comfortable insertion. If the wire bends you may be using too much force.</li>
+              <li>Insert the brush slowly with a gentle twisting or wriggling action. Push the tip over to an angle of approximately 45°- 90° for the back teeth.</li>
+              <li>Insert the brush head straight for front teeth, also with
+                a gentle twisting or wriggling action. Twisting helps the brush head go in with less bending of the wire.</li>
+            </ol>
+
+            <style>
+              .bs-wrap ol {
+                margin: 0 0 1.5em;
+                padding: 0;
+                counter-reset: item;
+              }
+
+              .bs-wrap li {
+                margin: 0 0 10px;
+                padding: 0 0 0 2em;
+                text-indent: -1.6em;
+                list-style-type: none;
+                counter-increment: item;
+              }
+
+              .bs-wrap li::before {
+                display: inline-block;
+                width: 1.5em;
+                padding-right: 0.5em;
+                font-weight: bold;
+                text-align: right;
+                content: counter(item) ".";
+              }
+            </style>
+
+            <div class="bs-spacer__vertical"></div>
+            <div class="bs-spacer__vertical"></div>
+
+            <div class="bs-infographic-container">
+              <div class="bs-infographic-container-in-line">
+                <div class="item">
+                  <img src="https://cdn0.woolworths.media/content/content/oral-care-piksters-infoimg-02.png" alt="" class="bs-asset" style="mix-blend-mode: multiply;">
+                </div>
+              </div>
+            </div>
+
+            <style>
+              .bs-infographic-container {
+                display: flex;
+                flex-direction: column;
+              }
+
+              .bs-infographic-container-in-line {
+                display: flex;
+              }
+            </style>
+
+          </div>
+        </div>
+      </section> -->
+
+      <div class="bs-spacer__vertical"></div>
+      <div class="bs-spacer__vertical"></div>
+
+
+      <!-- Product Cards -->
+      <section class="bs-frame">
+        <div class="bs-container bs-no-padding__sm">
+          <div class="bs-wrap">
+            <div class="bs-product-grid" style="place-content: flex-start;">
+
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="271877" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="272788" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="272206" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="376487" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="83515" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="271877" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="272788" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="272206" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="376487" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              <div class="bs-vendor-tile">
+                <oly-dynamic-content-product item-id="83515" force-small-format-view="forceSmallFormatView" small-format-stamp-size="smallFormatStampSize">|</oly-dynamic-content-product>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--  --------------- END / htmlFrame --------------- -->
+    </div>
+
+    <footer>FOOTER</footer>
+  </main>
+
+  <!-- Dummy Skus -->
+  <script src="src/assets/dummy-skus.js"></script>
+
+</body>
+
+</html>

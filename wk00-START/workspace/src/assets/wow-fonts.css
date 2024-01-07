@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Fresh Sans;
+  font-style: normal;
+  font-weight: var(--font-weight-regular);
+  src: url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.woff2')
+      format('woff2'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.woff')
+      format('woff'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: Fresh Sans Medium;
+  font-style: normal;
+  font-weight: var(--font-weight-medium);
+  src: url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.woff2')
+      format('woff2'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.woff')
+      format('woff'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: Fresh Sans Bold;
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  src: url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.woff2')
+      format('woff2'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.woff')
+      format('woff'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.ttf')
+      format('truetype');
+}
+
+
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: var(--font-weight-regular);
+  src: url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Regular_400.woff2')
+      format('woff2'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Regular_400.woff')
+      format('woff'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Regular_400.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: var(--font-weight-medium);
+  src: url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Medium_500.woff2')
+      format('woff2'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Medium_500.woff')
+      format('woff'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Medium_500.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  src: url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Bold_700.woff2')
+      format('woff2'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Bold_700.woff')
+      format('woff'),
+    url('https://cdn0.woolworths.media/wowssr/browser/assets/fonts/roboto/Roboto-Bold_700.ttf')
+      format('truetype');
+}
+
+
+:root {
+  --font-family-fresh-sans: 'Fresh Sans', sans-serif;
+  --font-family-fresh-script: 'Fresh Script', serif;
+  --font-family-roboto: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-sf-pro: 'SF Pro';
+  --font-weight-bold: 700;
+  --font-weight-semi-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+}
